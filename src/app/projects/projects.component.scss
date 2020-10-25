@@ -1,0 +1,29 @@
+:host {
+  display: grid;
+  grid-gap: 20px;
+  padding: 50px 20px;
+  justify-content: center;
+}
+
+header {
+  height: 50px;
+  background: linear-gradient(to right, #E9454E, #F39000);
+  border-radius: 4px;
+}
+
+header > div {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #FFF;
+  padding-left: 15px;
+}
+
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -120px;
+  z-index: -10;
+  width: 1920px;
+}
